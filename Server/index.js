@@ -24,3 +24,7 @@ const residencyRoute = require("./routes/ResidencyRoute.js");
 //using routes
 app.use("/api/user", userRoute);
 app.use("/api/residency", residencyRoute);
+
+// app.get("/", (req, res)=>{
+//     res.send("srever running.");
+// });

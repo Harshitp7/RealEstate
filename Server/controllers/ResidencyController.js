@@ -53,6 +53,6 @@
     } 
     catch (error) 
     {
-        throw new Error(error.meassage);
+        throw new Error(error.message);
     }
  });
